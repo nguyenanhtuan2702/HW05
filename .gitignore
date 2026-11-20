@@ -4,3 +4,12 @@
 Thumbs.db
 .DS_Store
 jmeter.log
+backend
+frontend-web
+frontend-mobile
+frontend-admin
+run_servers.sh
+api_specification.md
+run_servers.sh
+setup_guide.md
+
