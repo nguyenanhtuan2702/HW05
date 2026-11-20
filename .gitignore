@@ -1,0 +1,6 @@
+.env
+.env.local
+*.local.csv
+Thumbs.db
+.DS_Store
+jmeter.log
