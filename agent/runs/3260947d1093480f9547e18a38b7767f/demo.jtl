@@ -1,0 +1,5 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1795351889579,130,01 - Admin login,200,OK,Test_user_1 1-1,text,true,,640,228,1,1,http://localhost:3000/api/login,113,0,77
+1795351889812,12,02 - Đọc danh sách đơn hàng,200,OK,Test_user_1 1-1,text,true,,458,291,1,1,http://localhost:3000/api/admin/orders,12,0,0
+1795351893662,22,03 - Xác nhận đơn,200,OK,Test_user_1 1-1,text,true,,301,374,1,1,http://localhost:3000/api/admin/orders/1/status,22,0,0
+1795351893687,7,04 - Kiểm tra trạng thái đơn,200,OK,Test_user_1 1-1,text,true,,460,291,1,1,http://localhost:3000/api/admin/orders,7,0,0

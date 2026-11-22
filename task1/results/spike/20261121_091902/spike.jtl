@@ -1,0 +1,305 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1795227545195,32,01 - Admin login,200,OK,Spike_Nen_2_users 1-1,text,true,,640,228,1,1,http://localhost:3000/api/login,32,0,23
+1795227545260,5,02 - Đọc danh sách đơn hàng,200,OK,Spike_Nen_2_users 1-1,text,true,,81334,291,1,1,http://localhost:3000/api/admin/orders,4,0,0
+1795227545607,4,01 - Admin login,200,OK,Spike_Nen_2_users 1-2,text,true,,640,228,2,2,http://localhost:3000/api/login,4,0,1
+1795227545613,8,02 - Đọc danh sách đơn hàng,200,OK,Spike_Nen_2_users 1-2,text,true,,81334,291,2,2,http://localhost:3000/api/admin/orders,8,0,0
+1795227548425,11,03 - Xác nhận đơn,200,OK,Spike_Nen_2_users 1-1,text,true,,301,376,2,2,http://localhost:3000/api/admin/orders/401/status,11,0,0
+1795227548437,9,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Nen_2_users 1-1,text,true,,81336,291,2,2,http://localhost:3000/api/admin/orders,8,0,0
+1795227548455,6,01 - Admin login,200,OK,Spike_Nen_2_users 1-1,text,true,,640,228,2,2,http://localhost:3000/api/login,6,0,0
+1795227548463,10,02 - Đọc danh sách đơn hàng,200,OK,Spike_Nen_2_users 1-1,text,true,,81336,291,2,2,http://localhost:3000/api/admin/orders,10,0,0
+1795227548683,11,03 - Xác nhận đơn,200,OK,Spike_Nen_2_users 1-2,text,true,,301,376,2,2,http://localhost:3000/api/admin/orders/402/status,11,0,0
+1795227548696,9,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Nen_2_users 1-2,text,true,,81338,291,2,2,http://localhost:3000/api/admin/orders,8,0,0
+1795227548709,5,01 - Admin login,200,OK,Spike_Nen_2_users 1-2,text,true,,640,228,2,2,http://localhost:3000/api/login,5,0,0
+1795227548716,8,02 - Đọc danh sách đơn hàng,200,OK,Spike_Nen_2_users 1-2,text,true,,81338,291,2,2,http://localhost:3000/api/admin/orders,8,0,0
+1795227550754,17,03 - Xác nhận đơn,200,OK,Spike_Nen_2_users 1-1,text,true,,301,376,2,2,http://localhost:3000/api/admin/orders/403/status,17,0,0
+1795227550773,16,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Nen_2_users 1-1,text,true,,81340,291,2,2,http://localhost:3000/api/admin/orders,16,0,0
+1795227550798,6,01 - Admin login,200,OK,Spike_Nen_2_users 1-1,text,true,,640,228,2,2,http://localhost:3000/api/login,6,0,0
+1795227550806,19,02 - Đọc danh sách đơn hàng,200,OK,Spike_Nen_2_users 1-1,text,true,,81340,291,2,2,http://localhost:3000/api/admin/orders,18,0,0
+1795227552200,11,03 - Xác nhận đơn,200,OK,Spike_Nen_2_users 1-2,text,true,,301,376,2,2,http://localhost:3000/api/admin/orders/404/status,11,0,0
+1795227552214,16,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Nen_2_users 1-2,text,true,,81342,291,2,2,http://localhost:3000/api/admin/orders,15,0,0
+1795227552237,7,01 - Admin login,200,OK,Spike_Nen_2_users 1-2,text,true,,640,228,2,2,http://localhost:3000/api/login,7,0,0
+1795227552247,19,02 - Đọc danh sách đơn hàng,200,OK,Spike_Nen_2_users 1-2,text,true,,81342,291,2,2,http://localhost:3000/api/admin/orders,17,0,0
+1795227554349,19,03 - Xác nhận đơn,200,OK,Spike_Nen_2_users 1-1,text,true,,301,376,2,2,http://localhost:3000/api/admin/orders/405/status,19,0,0
+1795227554370,18,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Nen_2_users 1-1,text,true,,81344,291,2,2,http://localhost:3000/api/admin/orders,18,0,0
+1795227554397,8,01 - Admin login,200,OK,Spike_Nen_2_users 1-1,text,true,,640,228,2,2,http://localhost:3000/api/login,8,0,0
+1795227554409,41,02 - Đọc danh sách đơn hàng,200,OK,Spike_Nen_2_users 1-1,text,true,,81344,291,2,2,http://localhost:3000/api/admin/orders,19,0,0
+1795227555878,15,03 - Xác nhận đơn,200,OK,Spike_Nen_2_users 1-2,text,true,,301,376,2,2,http://localhost:3000/api/admin/orders/406/status,15,0,0
+1795227555895,14,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Nen_2_users 1-2,text,true,,81346,291,2,2,http://localhost:3000/api/admin/orders,13,0,0
+1795227555915,9,01 - Admin login,200,OK,Spike_Nen_2_users 1-2,text,true,,640,228,2,2,http://localhost:3000/api/login,9,0,0
+1795227555927,16,02 - Đọc danh sách đơn hàng,200,OK,Spike_Nen_2_users 1-2,text,true,,81346,291,2,2,http://localhost:3000/api/admin/orders,15,0,0
+1795227557436,12,03 - Xác nhận đơn,200,OK,Spike_Nen_2_users 1-1,text,true,,301,376,2,2,http://localhost:3000/api/admin/orders/407/status,12,0,0
+1795227557450,35,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Nen_2_users 1-1,text,true,,81348,291,2,2,http://localhost:3000/api/admin/orders,14,0,0
+1795227557491,4,01 - Admin login,200,OK,Spike_Nen_2_users 1-1,text,true,,640,228,2,2,http://localhost:3000/api/login,4,0,0
+1795227557496,7,02 - Đọc danh sách đơn hàng,200,OK,Spike_Nen_2_users 1-1,text,true,,81348,291,2,2,http://localhost:3000/api/admin/orders,7,0,0
+1795227558953,11,03 - Xác nhận đơn,200,OK,Spike_Nen_2_users 1-2,text,true,,301,376,2,2,http://localhost:3000/api/admin/orders/408/status,11,0,0
+1795227558967,9,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Nen_2_users 1-2,text,true,,81350,291,2,2,http://localhost:3000/api/admin/orders,9,0,0
+1795227558980,5,01 - Admin login,200,OK,Spike_Nen_2_users 1-2,text,true,,640,228,2,2,http://localhost:3000/api/login,5,0,0
+1795227558987,6,02 - Đọc danh sách đơn hàng,200,OK,Spike_Nen_2_users 1-2,text,true,,81350,291,2,2,http://localhost:3000/api/admin/orders,6,0,0
+1795227560034,11,01 - Admin login,200,OK,Spike_Dot_18_users 2-1,text,true,,640,228,1,3,http://localhost:3000/api/login,11,0,3
+1795227560048,19,02 - Đọc danh sách đơn hàng,200,OK,Spike_Dot_18_users 2-1,text,true,,81350,291,1,3,http://localhost:3000/api/admin/orders,18,0,0
+1795227560093,12,01 - Admin login,200,OK,Spike_Dot_18_users 2-2,text,true,,640,228,2,4,http://localhost:3000/api/login,12,0,3
+1795227560107,18,02 - Đọc danh sách đơn hàng,200,OK,Spike_Dot_18_users 2-2,text,true,,81350,291,2,4,http://localhost:3000/api/admin/orders,16,0,0
+1795227560150,12,01 - Admin login,200,OK,Spike_Dot_18_users 2-3,text,true,,640,228,3,5,http://localhost:3000/api/login,12,0,8
+1795227560164,12,02 - Đọc danh sách đơn hàng,200,OK,Spike_Dot_18_users 2-3,text,true,,81350,291,3,5,http://localhost:3000/api/admin/orders,11,0,0
+1795227560201,6,01 - Admin login,200,OK,Spike_Dot_18_users 2-4,text,true,,640,228,4,6,http://localhost:3000/api/login,5,0,2
+1795227560208,34,02 - Đọc danh sách đơn hàng,200,OK,Spike_Dot_18_users 2-4,text,true,,81350,291,4,6,http://localhost:3000/api/admin/orders,9,0,0
+1795227560257,3,01 - Admin login,200,OK,Spike_Dot_18_users 2-5,text,true,,640,228,5,7,http://localhost:3000/api/login,3,0,1
+1795227560261,5,02 - Đọc danh sách đơn hàng,200,OK,Spike_Dot_18_users 2-5,text,true,,81350,291,5,7,http://localhost:3000/api/admin/orders,4,0,0
+1795227560313,8,01 - Admin login,200,OK,Spike_Dot_18_users 2-6,text,true,,640,228,6,8,http://localhost:3000/api/login,8,0,3
+1795227560322,12,02 - Đọc danh sách đơn hàng,200,OK,Spike_Dot_18_users 2-6,text,true,,81350,291,6,8,http://localhost:3000/api/admin/orders,11,0,0
+1795227560368,5,01 - Admin login,200,OK,Spike_Dot_18_users 2-7,text,true,,640,228,7,9,http://localhost:3000/api/login,5,0,1
+1795227560374,13,02 - Đọc danh sách đơn hàng,200,OK,Spike_Dot_18_users 2-7,text,true,,81350,291,7,9,http://localhost:3000/api/admin/orders,12,0,0
+1795227560418,20,03 - Xác nhận đơn,200,OK,Spike_Nen_2_users 1-1,text,true,,301,376,2,10,http://localhost:3000/api/admin/orders/409/status,20,0,0
+1795227560426,15,01 - Admin login,200,OK,Spike_Dot_18_users 2-8,text,true,,640,228,8,10,http://localhost:3000/api/login,15,0,3
+1795227560440,17,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Nen_2_users 1-1,text,true,,81352,291,2,10,http://localhost:3000/api/admin/orders,16,0,0
+1795227560443,29,02 - Đọc danh sách đơn hàng,200,OK,Spike_Dot_18_users 2-8,text,true,,81352,291,8,10,http://localhost:3000/api/admin/orders,28,0,0
+1795227560462,17,01 - Admin login,200,OK,Spike_Nen_2_users 1-1,text,true,,640,228,2,10,http://localhost:3000/api/login,17,0,0
+1795227560482,19,01 - Admin login,200,OK,Spike_Dot_18_users 2-9,text,true,,640,228,9,11,http://localhost:3000/api/login,19,0,3
+1795227560481,16,02 - Đọc danh sách đơn hàng,200,OK,Spike_Nen_2_users 1-1,text,true,,81352,291,2,11,http://localhost:3000/api/admin/orders,16,0,0
+1795227560503,18,02 - Đọc danh sách đơn hàng,200,OK,Spike_Dot_18_users 2-9,text,true,,81352,291,9,11,http://localhost:3000/api/admin/orders,18,0,0
+1795227560538,7,01 - Admin login,200,OK,Spike_Dot_18_users 2-10,text,true,,640,228,10,12,http://localhost:3000/api/login,7,0,2
+1795227560546,11,02 - Đọc danh sách đơn hàng,200,OK,Spike_Dot_18_users 2-10,text,true,,81352,291,10,12,http://localhost:3000/api/admin/orders,11,0,0
+1795227560594,8,01 - Admin login,200,OK,Spike_Dot_18_users 2-11,text,true,,640,228,11,13,http://localhost:3000/api/login,8,0,2
+1795227560605,40,02 - Đọc danh sách đơn hàng,200,OK,Spike_Dot_18_users 2-11,text,true,,81352,291,11,13,http://localhost:3000/api/admin/orders,16,0,0
+1795227560650,9,01 - Admin login,200,OK,Spike_Dot_18_users 2-12,text,true,,640,228,12,14,http://localhost:3000/api/login,9,0,3
+1795227560662,17,02 - Đọc danh sách đơn hàng,200,OK,Spike_Dot_18_users 2-12,text,true,,81352,291,12,14,http://localhost:3000/api/admin/orders,17,0,0
+1795227560703,3,01 - Admin login,200,OK,Spike_Dot_18_users 2-13,text,true,,640,228,13,15,http://localhost:3000/api/login,3,0,1
+1795227560707,8,02 - Đọc danh sách đơn hàng,200,OK,Spike_Dot_18_users 2-13,text,true,,81352,291,13,15,http://localhost:3000/api/admin/orders,8,0,0
+1795227560759,6,01 - Admin login,200,OK,Spike_Dot_18_users 2-14,text,true,,640,228,14,16,http://localhost:3000/api/login,5,0,2
+1795227560766,20,02 - Đọc danh sách đơn hàng,200,OK,Spike_Dot_18_users 2-14,text,true,,81352,291,14,16,http://localhost:3000/api/admin/orders,7,0,0
+1795227560816,6,01 - Admin login,200,OK,Spike_Dot_18_users 2-15,text,true,,640,228,15,17,http://localhost:3000/api/login,6,0,3
+1795227560823,13,02 - Đọc danh sách đơn hàng,200,OK,Spike_Dot_18_users 2-15,text,true,,81352,291,15,17,http://localhost:3000/api/admin/orders,12,0,0
+1795227560871,7,01 - Admin login,200,OK,Spike_Dot_18_users 2-16,text,true,,640,228,16,18,http://localhost:3000/api/login,7,0,3
+1795227560880,11,02 - Đọc danh sách đơn hàng,200,OK,Spike_Dot_18_users 2-16,text,true,,81352,291,16,18,http://localhost:3000/api/admin/orders,11,0,0
+1795227560929,7,01 - Admin login,200,OK,Spike_Dot_18_users 2-17,text,true,,640,228,17,19,http://localhost:3000/api/login,7,0,2
+1795227560938,15,02 - Đọc danh sách đơn hàng,200,OK,Spike_Dot_18_users 2-17,text,true,,81352,291,17,19,http://localhost:3000/api/admin/orders,13,0,0
+1795227560985,9,01 - Admin login,200,OK,Spike_Dot_18_users 2-18,text,true,,640,228,18,20,http://localhost:3000/api/login,9,0,4
+1795227560996,15,02 - Đọc danh sách đơn hàng,200,OK,Spike_Dot_18_users 2-18,text,true,,81352,291,18,20,http://localhost:3000/api/admin/orders,14,0,0
+1795227561731,16,03 - Xác nhận đơn,200,OK,Spike_Nen_2_users 1-2,text,true,,301,376,2,20,http://localhost:3000/api/admin/orders/410/status,16,0,0
+1795227561748,37,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Nen_2_users 1-2,text,true,,81354,291,2,20,http://localhost:3000/api/admin/orders,14,0,0
+1795227561790,6,01 - Admin login,200,OK,Spike_Nen_2_users 1-2,text,true,,640,228,2,20,http://localhost:3000/api/login,6,0,0
+1795227561799,13,02 - Đọc danh sách đơn hàng,200,OK,Spike_Nen_2_users 1-2,text,true,,81354,291,2,20,http://localhost:3000/api/admin/orders,13,0,0
+1795227562163,18,03 - Xác nhận đơn,200,OK,Spike_Dot_18_users 2-2,text,true,,301,376,18,20,http://localhost:3000/api/admin/orders/412/status,17,0,0
+1795227562182,16,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Dot_18_users 2-2,text,true,,81356,291,18,20,http://localhost:3000/api/admin/orders,16,0,0
+1795227562233,6,01 - Admin login,200,OK,Spike_Dot_18_users 2-2,text,true,,640,228,18,20,http://localhost:3000/api/login,6,0,3
+1795227562240,10,02 - Đọc danh sách đơn hàng,200,OK,Spike_Dot_18_users 2-2,text,true,,81356,291,18,20,http://localhost:3000/api/admin/orders,9,0,0
+1795227562577,8,03 - Xác nhận đơn,200,OK,Spike_Dot_18_users 2-10,text,true,,301,376,18,20,http://localhost:3000/api/admin/orders/421/status,8,0,0
+1795227562586,10,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Dot_18_users 2-10,text,true,,81358,291,18,20,http://localhost:3000/api/admin/orders,9,0,0
+1795227562599,6,01 - Admin login,200,OK,Spike_Dot_18_users 2-10,text,true,,640,228,18,20,http://localhost:3000/api/login,6,0,2
+1795227562606,17,02 - Đọc danh sách đơn hàng,200,OK,Spike_Dot_18_users 2-10,text,true,,81358,291,18,20,http://localhost:3000/api/admin/orders,15,0,0
+1795227562619,18,03 - Xác nhận đơn,200,OK,Spike_Dot_18_users 2-3,text,true,,301,376,18,20,http://localhost:3000/api/admin/orders/413/status,18,0,0
+1795227562638,14,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Dot_18_users 2-3,text,true,,81360,291,18,20,http://localhost:3000/api/admin/orders,14,0,0
+1795227562658,9,01 - Admin login,200,OK,Spike_Dot_18_users 2-3,text,true,,640,228,18,20,http://localhost:3000/api/login,9,0,3
+1795227562669,22,02 - Đọc danh sách đơn hàng,200,OK,Spike_Dot_18_users 2-3,text,true,,81360,291,18,20,http://localhost:3000/api/admin/orders,10,0,0
+1795227562733,13,03 - Xác nhận đơn,200,OK,Spike_Dot_18_users 2-8,text,true,,301,376,18,20,http://localhost:3000/api/admin/orders/418/status,12,0,0
+1795227562746,12,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Dot_18_users 2-8,text,true,,81362,291,18,20,http://localhost:3000/api/admin/orders,11,0,0
+1795227562759,12,03 - Xác nhận đơn,200,OK,Spike_Dot_18_users 2-5,text,true,,301,376,18,20,http://localhost:3000/api/admin/orders/415/status,12,0,0
+1795227562761,11,01 - Admin login,200,OK,Spike_Dot_18_users 2-8,text,true,,640,228,18,20,http://localhost:3000/api/login,11,0,2
+1795227562772,13,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Dot_18_users 2-5,text,true,,81364,291,18,20,http://localhost:3000/api/admin/orders,12,0,0
+1795227562773,19,02 - Đọc danh sách đơn hàng,200,OK,Spike_Dot_18_users 2-8,text,true,,81364,291,18,20,http://localhost:3000/api/admin/orders,18,0,0
+1795227562789,11,01 - Admin login,200,OK,Spike_Dot_18_users 2-5,text,true,,640,228,18,20,http://localhost:3000/api/login,10,0,2
+1795227562802,12,02 - Đọc danh sách đơn hàng,200,OK,Spike_Dot_18_users 2-5,text,true,,81364,291,18,20,http://localhost:3000/api/admin/orders,11,0,0
+1795227562807,19,03 - Xác nhận đơn,200,OK,Spike_Dot_18_users 2-9,text,true,,301,376,18,20,http://localhost:3000/api/admin/orders/420/status,19,0,0
+1795227562816,19,03 - Xác nhận đơn,200,OK,Spike_Dot_18_users 2-7,text,true,,301,376,18,20,http://localhost:3000/api/admin/orders/417/status,19,0,0
+1795227562828,18,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Dot_18_users 2-9,text,true,,81368,291,18,20,http://localhost:3000/api/admin/orders,17,0,0
+1795227562836,19,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Dot_18_users 2-7,text,true,,81368,291,18,20,http://localhost:3000/api/admin/orders,19,0,0
+1795227562836,29,03 - Xác nhận đơn,200,OK,Spike_Dot_18_users 2-13,text,true,,301,376,18,20,http://localhost:3000/api/admin/orders/424/status,29,0,0
+1795227562850,18,01 - Admin login,200,OK,Spike_Dot_18_users 2-9,text,true,,640,228,18,20,http://localhost:3000/api/login,17,0,2
+1795227562860,11,01 - Admin login,200,OK,Spike_Dot_18_users 2-7,text,true,,640,228,18,20,http://localhost:3000/api/login,11,0,3
+1795227562866,13,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Dot_18_users 2-13,text,true,,81370,291,18,20,http://localhost:3000/api/admin/orders,12,0,0
+1795227562869,26,02 - Đọc danh sách đơn hàng,200,OK,Spike_Dot_18_users 2-9,text,true,,81370,291,18,20,http://localhost:3000/api/admin/orders,22,0,0
+1795227562872,27,02 - Đọc danh sách đơn hàng,200,OK,Spike_Dot_18_users 2-7,text,true,,81370,291,18,20,http://localhost:3000/api/admin/orders,26,0,0
+1795227562883,19,01 - Admin login,200,OK,Spike_Dot_18_users 2-13,text,true,,640,228,18,20,http://localhost:3000/api/login,19,0,3
+1795227562904,14,02 - Đọc danh sách đơn hàng,200,OK,Spike_Dot_18_users 2-13,text,true,,81370,291,18,20,http://localhost:3000/api/admin/orders,12,0,0
+1795227563092,12,03 - Xác nhận đơn,200,OK,Spike_Dot_18_users 2-18,text,true,,301,376,18,20,http://localhost:3000/api/admin/orders/429/status,12,0,0
+1795227563105,10,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Dot_18_users 2-18,text,true,,81372,291,18,20,http://localhost:3000/api/admin/orders,10,0,0
+1795227563120,8,01 - Admin login,200,OK,Spike_Dot_18_users 2-18,text,true,,640,228,18,20,http://localhost:3000/api/login,8,0,3
+1795227563120,15,03 - Xác nhận đơn,200,OK,Spike_Dot_18_users 2-1,text,true,,301,376,18,20,http://localhost:3000/api/admin/orders/411/status,15,0,0
+1795227563130,12,02 - Đọc danh sách đơn hàng,200,OK,Spike_Dot_18_users 2-18,text,true,,81374,291,18,20,http://localhost:3000/api/admin/orders,11,0,0
+1795227563136,14,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Dot_18_users 2-1,text,true,,81374,291,18,20,http://localhost:3000/api/admin/orders,14,0,0
+1795227563152,5,01 - Admin login,200,OK,Spike_Dot_18_users 2-1,text,true,,640,228,18,20,http://localhost:3000/api/login,5,0,1
+1795227563158,10,02 - Đọc danh sách đơn hàng,200,OK,Spike_Dot_18_users 2-1,text,true,,81374,291,18,20,http://localhost:3000/api/admin/orders,10,0,0
+1795227563165,12,03 - Xác nhận đơn,200,OK,Spike_Nen_2_users 1-1,text,true,,301,376,2,20,http://localhost:3000/api/admin/orders/419/status,12,0,0
+1795227563178,11,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Nen_2_users 1-1,text,true,,81376,291,2,20,http://localhost:3000/api/admin/orders,10,0,0
+1795227563192,5,01 - Admin login,200,OK,Spike_Nen_2_users 1-1,text,true,,640,228,2,20,http://localhost:3000/api/login,5,0,0
+1795227563197,8,02 - Đọc danh sách đơn hàng,200,OK,Spike_Nen_2_users 1-1,text,true,,81376,291,2,20,http://localhost:3000/api/admin/orders,8,0,0
+1795227563221,11,03 - Xác nhận đơn,200,OK,Spike_Dot_18_users 2-14,text,true,,301,376,18,20,http://localhost:3000/api/admin/orders/425/status,11,0,0
+1795227563233,8,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Dot_18_users 2-14,text,true,,81378,291,18,20,http://localhost:3000/api/admin/orders,8,0,0
+1795227563245,9,01 - Admin login,200,OK,Spike_Dot_18_users 2-14,text,true,,640,228,18,20,http://localhost:3000/api/login,9,0,2
+1795227563257,13,02 - Đọc danh sách đơn hàng,200,OK,Spike_Dot_18_users 2-14,text,true,,81378,291,18,20,http://localhost:3000/api/admin/orders,12,0,0
+1795227563431,12,03 - Xác nhận đơn,200,OK,Spike_Dot_18_users 2-4,text,true,,301,376,18,20,http://localhost:3000/api/admin/orders/414/status,11,0,0
+1795227563443,8,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Dot_18_users 2-4,text,true,,81380,291,18,20,http://localhost:3000/api/admin/orders,8,0,0
+1795227563455,6,01 - Admin login,200,OK,Spike_Dot_18_users 2-4,text,true,,640,228,18,20,http://localhost:3000/api/login,6,0,3
+1795227563462,4,02 - Đọc danh sách đơn hàng,200,OK,Spike_Dot_18_users 2-4,text,true,,81380,291,18,20,http://localhost:3000/api/admin/orders,4,0,0
+1795227563550,11,03 - Xác nhận đơn,200,OK,Spike_Dot_18_users 2-16,text,true,,301,376,18,20,http://localhost:3000/api/admin/orders/427/status,11,0,0
+1795227563562,9,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Dot_18_users 2-16,text,true,,81382,291,18,20,http://localhost:3000/api/admin/orders,8,0,0
+1795227563574,5,01 - Admin login,200,OK,Spike_Dot_18_users 2-16,text,true,,640,228,18,20,http://localhost:3000/api/login,5,0,2
+1795227563580,20,02 - Đọc danh sách đơn hàng,200,OK,Spike_Dot_18_users 2-16,text,true,,81382,291,18,20,http://localhost:3000/api/admin/orders,11,0,0
+1795227563849,13,03 - Xác nhận đơn,200,OK,Spike_Dot_18_users 2-17,text,true,,301,376,18,20,http://localhost:3000/api/admin/orders/428/status,13,0,0
+1795227563863,32,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Dot_18_users 2-17,text,true,,81384,291,18,20,http://localhost:3000/api/admin/orders,9,0,0
+1795227563887,14,03 - Xác nhận đơn,200,OK,Spike_Dot_18_users 2-11,text,true,,301,376,18,20,http://localhost:3000/api/admin/orders/422/status,14,0,0
+1795227563898,9,01 - Admin login,200,OK,Spike_Dot_18_users 2-17,text,true,,640,228,18,20,http://localhost:3000/api/login,9,0,2
+1795227563902,14,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Dot_18_users 2-11,text,true,,81386,291,18,20,http://localhost:3000/api/admin/orders,13,0,0
+1795227563909,19,02 - Đọc danh sách đơn hàng,200,OK,Spike_Dot_18_users 2-17,text,true,,81386,291,18,20,http://localhost:3000/api/admin/orders,18,0,0
+1795227563921,9,01 - Admin login,200,OK,Spike_Dot_18_users 2-11,text,true,,640,228,18,20,http://localhost:3000/api/login,9,0,2
+1795227563931,9,02 - Đọc danh sách đơn hàng,200,OK,Spike_Dot_18_users 2-11,text,true,,81386,291,18,20,http://localhost:3000/api/admin/orders,8,0,0
+1795227564005,14,03 - Xác nhận đơn,200,OK,Spike_Dot_18_users 2-12,text,true,,301,376,18,20,http://localhost:3000/api/admin/orders/423/status,14,0,0
+1795227564023,16,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Dot_18_users 2-12,text,true,,81388,291,18,20,http://localhost:3000/api/admin/orders,15,0,0
+1795227564045,9,01 - Admin login,200,OK,Spike_Dot_18_users 2-12,text,true,,640,228,18,20,http://localhost:3000/api/login,9,0,4
+1795227564057,23,02 - Đọc danh sách đơn hàng,200,OK,Spike_Dot_18_users 2-12,text,true,,81388,291,18,20,http://localhost:3000/api/admin/orders,9,0,0
+1795227564216,13,03 - Xác nhận đơn,200,OK,Spike_Dot_18_users 2-6,text,true,,301,376,18,20,http://localhost:3000/api/admin/orders/416/status,13,0,0
+1795227564230,8,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Dot_18_users 2-6,text,true,,81390,291,18,20,http://localhost:3000/api/admin/orders,8,0,0
+1795227564241,5,01 - Admin login,200,OK,Spike_Dot_18_users 2-6,text,true,,640,228,18,20,http://localhost:3000/api/login,5,0,2
+1795227564247,12,02 - Đọc danh sách đơn hàng,200,OK,Spike_Dot_18_users 2-6,text,true,,81390,291,18,20,http://localhost:3000/api/admin/orders,11,0,0
+1795227564253,17,03 - Xác nhận đơn,200,OK,Spike_Nen_2_users 1-2,text,true,,301,376,2,20,http://localhost:3000/api/admin/orders/430/status,17,0,0
+1795227564271,10,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Nen_2_users 1-2,text,true,,81392,291,2,20,http://localhost:3000/api/admin/orders,9,0,0
+1795227564284,5,01 - Admin login,200,OK,Spike_Nen_2_users 1-2,text,true,,640,228,2,20,http://localhost:3000/api/login,5,0,0
+1795227564290,10,02 - Đọc danh sách đơn hàng,200,OK,Spike_Nen_2_users 1-2,text,true,,81392,291,2,20,http://localhost:3000/api/admin/orders,9,0,0
+1795227564835,12,03 - Xác nhận đơn,200,OK,Spike_Dot_18_users 2-15,text,true,,301,376,18,20,http://localhost:3000/api/admin/orders/426/status,12,0,0
+1795227564848,14,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Dot_18_users 2-15,text,true,,81394,291,18,20,http://localhost:3000/api/admin/orders,13,0,0
+1795227564868,6,01 - Admin login,200,OK,Spike_Dot_18_users 2-15,text,true,,640,228,18,20,http://localhost:3000/api/login,6,0,2
+1795227564875,12,02 - Đọc danh sách đơn hàng,200,OK,Spike_Dot_18_users 2-15,text,true,,81394,291,18,20,http://localhost:3000/api/admin/orders,12,0,0
+1795227565269,11,03 - Xác nhận đơn,200,OK,Spike_Nen_2_users 1-1,text,true,,301,376,2,20,http://localhost:3000/api/admin/orders/441/status,11,0,0
+1795227565281,8,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Nen_2_users 1-1,text,true,,81396,291,2,20,http://localhost:3000/api/admin/orders,8,0,0
+1795227565291,2,01 - Admin login,200,OK,Spike_Nen_2_users 1-1,text,true,,640,228,2,20,http://localhost:3000/api/login,2,0,0
+1795227565294,6,02 - Đọc danh sách đơn hàng,200,OK,Spike_Nen_2_users 1-1,text,true,,81396,291,2,20,http://localhost:3000/api/admin/orders,6,0,0
+1795227565458,9,03 - Xác nhận đơn,200,OK,Spike_Dot_18_users 2-3,text,true,,301,376,18,20,http://localhost:3000/api/admin/orders/433/status,9,0,0
+1795227565467,8,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Dot_18_users 2-3,text,true,,81398,291,18,20,http://localhost:3000/api/admin/orders,8,0,0
+1795227565471,12,03 - Xác nhận đơn,200,OK,Spike_Dot_18_users 2-4,text,true,,301,376,17,19,http://localhost:3000/api/admin/orders/443/status,12,0,0
+1795227565484,7,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Dot_18_users 2-4,text,true,,81400,291,17,19,http://localhost:3000/api/admin/orders,7,0,0
+1795227565646,10,03 - Xác nhận đơn,200,OK,Spike_Dot_18_users 2-2,text,true,,301,376,16,18,http://localhost:3000/api/admin/orders/431/status,9,0,0
+1795227565656,9,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Dot_18_users 2-2,text,true,,81402,291,16,18,http://localhost:3000/api/admin/orders,9,0,0
+1795227565706,9,03 - Xác nhận đơn,200,OK,Spike_Dot_18_users 2-8,text,true,,301,376,15,17,http://localhost:3000/api/admin/orders/434/status,9,0,0
+1795227565716,9,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Dot_18_users 2-8,text,true,,81404,291,15,17,http://localhost:3000/api/admin/orders,8,0,0
+1795227565777,11,03 - Xác nhận đơn,200,OK,Spike_Dot_18_users 2-14,text,true,,301,376,14,16,http://localhost:3000/api/admin/orders/442/status,11,0,0
+1795227565789,10,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Dot_18_users 2-14,text,true,,81406,291,14,16,http://localhost:3000/api/admin/orders,10,0,0
+1795227565937,8,03 - Xác nhận đơn,200,OK,Spike_Dot_18_users 2-7,text,true,,301,376,13,15,http://localhost:3000/api/admin/orders/437/status,8,0,0
+1795227565946,9,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Dot_18_users 2-7,text,true,,81408,291,13,15,http://localhost:3000/api/admin/orders,9,0,0
+1795227566036,6,03 - Xác nhận đơn,200,OK,Spike_Dot_18_users 2-9,text,true,,301,376,12,14,http://localhost:3000/api/admin/orders/436/status,6,0,0
+1795227566042,7,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Dot_18_users 2-9,text,true,,81410,291,12,14,http://localhost:3000/api/admin/orders,7,0,0
+1795227566059,8,03 - Xác nhận đơn,200,OK,Spike_Dot_18_users 2-18,text,true,,301,376,11,13,http://localhost:3000/api/admin/orders/439/status,8,0,0
+1795227566068,30,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Dot_18_users 2-18,text,true,,81412,291,11,13,http://localhost:3000/api/admin/orders,6,0,0
+1795227566129,12,03 - Xác nhận đơn,200,OK,Spike_Dot_18_users 2-10,text,true,,301,376,10,12,http://localhost:3000/api/admin/orders/432/status,12,0,0
+1795227566142,19,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Dot_18_users 2-10,text,true,,81414,291,10,12,http://localhost:3000/api/admin/orders,8,0,0
+1795227566334,13,03 - Xác nhận đơn,200,OK,Spike_Dot_18_users 2-13,text,true,,301,376,9,11,http://localhost:3000/api/admin/orders/438/status,13,0,0
+1795227566347,25,03 - Xác nhận đơn,200,OK,Spike_Dot_18_users 2-11,text,true,,301,376,9,11,http://localhost:3000/api/admin/orders/446/status,25,0,0
+1795227566347,32,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Dot_18_users 2-13,text,true,,81416,291,9,11,http://localhost:3000/api/admin/orders,15,0,0
+1795227566363,19,03 - Xác nhận đơn,200,OK,Spike_Dot_18_users 2-5,text,true,,301,376,9,11,http://localhost:3000/api/admin/orders/435/status,19,0,0
+1795227566373,22,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Dot_18_users 2-11,text,true,,81420,291,8,10,http://localhost:3000/api/admin/orders,21,0,0
+1795227566374,36,03 - Xác nhận đơn,200,OK,Spike_Dot_18_users 2-16,text,true,,301,376,7,9,http://localhost:3000/api/admin/orders/444/status,36,0,0
+1795227566383,24,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Dot_18_users 2-5,text,true,,81420,291,7,9,http://localhost:3000/api/admin/orders,22,0,0
+1795227566411,14,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Dot_18_users 2-16,text,true,,81422,291,6,8,http://localhost:3000/api/admin/orders,13,0,0
+1795227566667,10,03 - Xác nhận đơn,200,OK,Spike_Dot_18_users 2-12,text,true,,301,376,5,7,http://localhost:3000/api/admin/orders/447/status,10,0,0
+1795227566692,14,03 - Xác nhận đơn,200,OK,Spike_Dot_18_users 2-1,text,true,,301,376,5,7,http://localhost:3000/api/admin/orders/440/status,14,0,0
+1795227566678,32,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Dot_18_users 2-12,text,true,,81424,291,5,7,http://localhost:3000/api/admin/orders,10,0,0
+1795227566708,10,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Dot_18_users 2-1,text,true,,81426,291,4,6,http://localhost:3000/api/admin/orders,10,0,0
+1795227567096,11,03 - Xác nhận đơn,200,OK,Spike_Dot_18_users 2-17,text,true,,301,376,3,5,http://localhost:3000/api/admin/orders/445/status,11,0,0
+1795227567108,26,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Dot_18_users 2-17,text,true,,81428,291,3,5,http://localhost:3000/api/admin/orders,8,0,0
+1795227568113,17,03 - Xác nhận đơn,200,OK,Spike_Dot_18_users 2-6,text,true,,301,376,2,4,http://localhost:3000/api/admin/orders/448/status,16,0,0
+1795227568130,10,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Dot_18_users 2-6,text,true,,81430,291,2,4,http://localhost:3000/api/admin/orders,10,0,0
+1795227568275,9,03 - Xác nhận đơn,200,OK,Spike_Nen_2_users 1-2,text,true,,301,376,2,3,http://localhost:3000/api/admin/orders/449/status,9,0,0
+1795227568285,9,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Nen_2_users 1-2,text,true,,81432,291,2,3,http://localhost:3000/api/admin/orders,9,0,0
+1795227568297,4,01 - Admin login,200,OK,Spike_Nen_2_users 1-2,text,true,,640,228,2,3,http://localhost:3000/api/login,4,0,0
+1795227568302,10,02 - Đọc danh sách đơn hàng,200,OK,Spike_Nen_2_users 1-2,text,true,,81432,291,2,3,http://localhost:3000/api/admin/orders,9,0,0
+1795227568416,10,03 - Xác nhận đơn,200,OK,Spike_Dot_18_users 2-15,text,true,,301,376,1,3,http://localhost:3000/api/admin/orders/450/status,10,0,0
+1795227568427,9,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Dot_18_users 2-15,text,true,,81434,291,1,3,http://localhost:3000/api/admin/orders,9,0,0
+1795227569143,15,03 - Xác nhận đơn,200,OK,Spike_Nen_2_users 1-1,text,true,,301,376,2,2,http://localhost:3000/api/admin/orders/451/status,15,0,0
+1795227569159,9,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Nen_2_users 1-1,text,true,,81436,291,2,2,http://localhost:3000/api/admin/orders,9,0,0
+1795227569172,4,01 - Admin login,200,OK,Spike_Nen_2_users 1-1,text,true,,640,228,2,2,http://localhost:3000/api/login,4,0,0
+1795227569178,10,02 - Đọc danh sách đơn hàng,200,OK,Spike_Nen_2_users 1-1,text,true,,81436,291,2,2,http://localhost:3000/api/admin/orders,9,0,0
+1795227571176,17,03 - Xác nhận đơn,200,OK,Spike_Nen_2_users 1-2,text,true,,301,376,2,2,http://localhost:3000/api/admin/orders/452/status,17,0,0
+1795227571197,13,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Nen_2_users 1-2,text,true,,81438,291,2,2,http://localhost:3000/api/admin/orders,12,0,0
+1795227571214,11,01 - Admin login,200,OK,Spike_Nen_2_users 1-2,text,true,,640,228,2,2,http://localhost:3000/api/login,11,0,0
+1795227571227,10,02 - Đọc danh sách đơn hàng,200,OK,Spike_Nen_2_users 1-2,text,true,,81438,291,2,2,http://localhost:3000/api/admin/orders,10,0,0
+1795227571496,10,03 - Xác nhận đơn,200,OK,Spike_Nen_2_users 1-1,text,true,,301,376,2,2,http://localhost:3000/api/admin/orders/453/status,10,0,0
+1795227571507,33,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Nen_2_users 1-1,text,true,,81440,291,2,2,http://localhost:3000/api/admin/orders,9,0,0
+1795227571542,3,01 - Admin login,200,OK,Spike_Nen_2_users 1-1,text,true,,640,228,2,2,http://localhost:3000/api/login,3,0,0
+1795227571546,11,02 - Đọc danh sách đơn hàng,200,OK,Spike_Nen_2_users 1-1,text,true,,81440,291,2,2,http://localhost:3000/api/admin/orders,10,0,0
+1795227574947,12,03 - Xác nhận đơn,200,OK,Spike_Nen_2_users 1-2,text,true,,301,376,2,2,http://localhost:3000/api/admin/orders/454/status,12,0,0
+1795227574960,9,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Nen_2_users 1-2,text,true,,81442,291,2,2,http://localhost:3000/api/admin/orders,8,0,0
+1795227574971,4,01 - Admin login,200,OK,Spike_Nen_2_users 1-2,text,true,,640,228,2,2,http://localhost:3000/api/login,4,0,0
+1795227574976,9,02 - Đọc danh sách đơn hàng,200,OK,Spike_Nen_2_users 1-2,text,true,,81442,291,2,2,http://localhost:3000/api/admin/orders,8,0,0
+1795227575078,9,03 - Xác nhận đơn,200,OK,Spike_Nen_2_users 1-1,text,true,,301,376,2,2,http://localhost:3000/api/admin/orders/455/status,9,0,0
+1795227575087,8,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Nen_2_users 1-1,text,true,,81444,291,2,2,http://localhost:3000/api/admin/orders,8,0,0
+1795227575096,3,01 - Admin login,200,OK,Spike_Nen_2_users 1-1,text,true,,640,228,2,2,http://localhost:3000/api/login,3,0,0
+1795227575100,5,02 - Đọc danh sách đơn hàng,200,OK,Spike_Nen_2_users 1-1,text,true,,81444,291,2,2,http://localhost:3000/api/admin/orders,5,0,0
+1795227577292,12,03 - Xác nhận đơn,200,OK,Spike_Nen_2_users 1-1,text,true,,301,376,2,2,http://localhost:3000/api/admin/orders/457/status,12,0,0
+1795227577308,9,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Nen_2_users 1-1,text,true,,81446,291,2,2,http://localhost:3000/api/admin/orders,8,0,0
+1795227577318,2,01 - Admin login,200,OK,Spike_Nen_2_users 1-1,text,true,,640,228,2,2,http://localhost:3000/api/login,2,0,0
+1795227577321,5,02 - Đọc danh sách đơn hàng,200,OK,Spike_Nen_2_users 1-1,text,true,,81446,291,2,2,http://localhost:3000/api/admin/orders,4,0,0
+1795227577961,11,03 - Xác nhận đơn,200,OK,Spike_Nen_2_users 1-2,text,true,,301,376,2,2,http://localhost:3000/api/admin/orders/456/status,11,0,0
+1795227577972,11,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Nen_2_users 1-2,text,true,,81448,291,2,2,http://localhost:3000/api/admin/orders,10,0,0
+1795227577987,7,01 - Admin login,200,OK,Spike_Nen_2_users 1-2,text,true,,640,228,2,2,http://localhost:3000/api/login,6,0,0
+1795227577995,23,02 - Đọc danh sách đơn hàng,200,OK,Spike_Nen_2_users 1-2,text,true,,81448,291,2,2,http://localhost:3000/api/admin/orders,11,0,0
+1795227580390,11,03 - Xác nhận đơn,200,OK,Spike_Nen_2_users 1-1,text,true,,301,376,2,2,http://localhost:3000/api/admin/orders/458/status,11,0,0
+1795227580402,7,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Nen_2_users 1-1,text,true,,81450,291,2,2,http://localhost:3000/api/admin/orders,7,0,0
+1795227580411,3,01 - Admin login,200,OK,Spike_Nen_2_users 1-1,text,true,,640,228,2,2,http://localhost:3000/api/login,3,0,0
+1795227580415,11,02 - Đọc danh sách đơn hàng,200,OK,Spike_Nen_2_users 1-1,text,true,,81450,291,2,2,http://localhost:3000/api/admin/orders,11,0,0
+1795227580784,12,03 - Xác nhận đơn,200,OK,Spike_Nen_2_users 1-2,text,true,,301,376,2,2,http://localhost:3000/api/admin/orders/459/status,12,0,0
+1795227580797,10,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Nen_2_users 1-2,text,true,,81452,291,2,2,http://localhost:3000/api/admin/orders,10,0,0
+1795227580809,4,01 - Admin login,200,OK,Spike_Nen_2_users 1-2,text,true,,640,228,2,2,http://localhost:3000/api/login,4,0,0
+1795227580814,9,02 - Đọc danh sách đơn hàng,200,OK,Spike_Nen_2_users 1-2,text,true,,81452,291,2,2,http://localhost:3000/api/admin/orders,9,0,0
+1795227582947,11,03 - Xác nhận đơn,200,OK,Spike_Nen_2_users 1-1,text,true,,301,376,2,2,http://localhost:3000/api/admin/orders/460/status,11,0,0
+1795227582959,9,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Nen_2_users 1-1,text,true,,81454,291,2,2,http://localhost:3000/api/admin/orders,9,0,0
+1795227582971,3,01 - Admin login,200,OK,Spike_Nen_2_users 1-1,text,true,,640,228,2,2,http://localhost:3000/api/login,3,0,0
+1795227582975,5,02 - Đọc danh sách đơn hàng,200,OK,Spike_Nen_2_users 1-1,text,true,,81454,291,2,2,http://localhost:3000/api/admin/orders,5,0,0
+1795227584786,11,03 - Xác nhận đơn,200,OK,Spike_Nen_2_users 1-2,text,true,,301,376,2,2,http://localhost:3000/api/admin/orders/461/status,11,0,0
+1795227584799,9,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Nen_2_users 1-2,text,true,,81456,291,2,2,http://localhost:3000/api/admin/orders,9,0,0
+1795227584811,5,01 - Admin login,200,OK,Spike_Nen_2_users 1-2,text,true,,640,228,2,2,http://localhost:3000/api/login,5,0,0
+1795227584817,46,02 - Đọc danh sách đơn hàng,200,OK,Spike_Nen_2_users 1-2,text,true,,81456,291,2,2,http://localhost:3000/api/admin/orders,11,0,0
+1795227585756,15,03 - Xác nhận đơn,200,OK,Spike_Nen_2_users 1-1,text,true,,301,376,2,2,http://localhost:3000/api/admin/orders/462/status,15,0,0
+1795227585772,15,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Nen_2_users 1-1,text,true,,81458,291,2,2,http://localhost:3000/api/admin/orders,14,0,0
+1795227585790,5,01 - Admin login,200,OK,Spike_Nen_2_users 1-1,text,true,,640,228,2,2,http://localhost:3000/api/login,5,0,0
+1795227585797,13,02 - Đọc danh sách đơn hàng,200,OK,Spike_Nen_2_users 1-1,text,true,,81458,291,2,2,http://localhost:3000/api/admin/orders,12,0,0
+1795227587165,14,03 - Xác nhận đơn,200,OK,Spike_Nen_2_users 1-2,text,true,,301,376,2,2,http://localhost:3000/api/admin/orders/463/status,14,0,0
+1795227587180,29,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Nen_2_users 1-2,text,true,,81460,291,2,2,http://localhost:3000/api/admin/orders,13,0,0
+1795227587212,5,01 - Admin login,200,OK,Spike_Nen_2_users 1-2,text,true,,640,228,2,2,http://localhost:3000/api/login,5,0,0
+1795227587219,11,02 - Đọc danh sách đơn hàng,200,OK,Spike_Nen_2_users 1-2,text,true,,81460,291,2,2,http://localhost:3000/api/admin/orders,10,0,0
+1795227588300,16,03 - Xác nhận đơn,200,OK,Spike_Nen_2_users 1-1,text,true,,301,376,2,2,http://localhost:3000/api/admin/orders/464/status,16,0,0
+1795227588317,33,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Nen_2_users 1-1,text,true,,81462,291,2,2,http://localhost:3000/api/admin/orders,14,0,0
+1795227588354,6,01 - Admin login,200,OK,Spike_Nen_2_users 1-1,text,true,,640,228,2,2,http://localhost:3000/api/login,6,0,0
+1795227588362,13,02 - Đọc danh sách đơn hàng,200,OK,Spike_Nen_2_users 1-1,text,true,,81462,291,2,2,http://localhost:3000/api/admin/orders,12,0,0
+1795227590925,10,03 - Xác nhận đơn,200,OK,Spike_Nen_2_users 1-2,text,true,,301,376,2,2,http://localhost:3000/api/admin/orders/465/status,10,0,0
+1795227590938,5,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Nen_2_users 1-2,text,true,,81464,291,2,2,http://localhost:3000/api/admin/orders,4,0,0
+1795227590946,3,01 - Admin login,200,OK,Spike_Nen_2_users 1-2,text,true,,640,228,2,2,http://localhost:3000/api/login,3,0,0
+1795227590950,9,02 - Đọc danh sách đơn hàng,200,OK,Spike_Nen_2_users 1-2,text,true,,81464,291,2,2,http://localhost:3000/api/admin/orders,8,0,0
+1795227591642,17,03 - Xác nhận đơn,200,OK,Spike_Nen_2_users 1-1,text,true,,301,376,2,2,http://localhost:3000/api/admin/orders/466/status,17,0,0
+1795227591661,12,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Nen_2_users 1-1,text,true,,81466,291,2,2,http://localhost:3000/api/admin/orders,11,0,0
+1795227591677,5,01 - Admin login,200,OK,Spike_Nen_2_users 1-1,text,true,,640,228,2,2,http://localhost:3000/api/login,5,0,0
+1795227591683,16,02 - Đọc danh sách đơn hàng,200,OK,Spike_Nen_2_users 1-1,text,true,,81466,291,2,2,http://localhost:3000/api/admin/orders,15,0,0
+1795227593245,16,03 - Xác nhận đơn,200,OK,Spike_Nen_2_users 1-2,text,true,,301,376,2,2,http://localhost:3000/api/admin/orders/467/status,16,0,0
+1795227593263,31,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Nen_2_users 1-2,text,true,,81468,291,2,2,http://localhost:3000/api/admin/orders,13,0,0
+1795227593298,5,01 - Admin login,200,OK,Spike_Nen_2_users 1-2,text,true,,640,228,2,2,http://localhost:3000/api/login,5,0,0
+1795227593304,8,02 - Đọc danh sách đơn hàng,200,OK,Spike_Nen_2_users 1-2,text,true,,81468,291,2,2,http://localhost:3000/api/admin/orders,8,0,0
+1795227594941,1281,03 - Xác nhận đơn,200,OK,Spike_Nen_2_users 1-1,text,true,,301,376,2,2,http://localhost:3000/api/admin/orders/468/status,1281,0,0
+1795227596224,6,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Nen_2_users 1-1,text,true,,81470,291,2,2,http://localhost:3000/api/admin/orders,6,0,0
+1795227596232,2,01 - Admin login,200,OK,Spike_Nen_2_users 1-1,text,true,,640,228,2,2,http://localhost:3000/api/login,2,0,0
+1795227596235,4,02 - Đọc danh sách đơn hàng,200,OK,Spike_Nen_2_users 1-1,text,true,,81470,291,2,2,http://localhost:3000/api/admin/orders,4,0,0
+1795227596482,1517,03 - Xác nhận đơn,200,OK,Spike_Nen_2_users 1-2,text,true,,301,376,2,2,http://localhost:3000/api/admin/orders/469/status,1517,0,0
+1795227597999,17,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Nen_2_users 1-2,text,true,,81472,291,2,2,http://localhost:3000/api/admin/orders,4,0,0
+1795227598018,6,01 - Admin login,200,OK,Spike_Nen_2_users 1-2,text,true,,640,228,2,2,http://localhost:3000/api/login,6,0,0
+1795227598025,22,02 - Đọc danh sách đơn hàng,200,OK,Spike_Nen_2_users 1-2,text,true,,81472,291,2,2,http://localhost:3000/api/admin/orders,6,0,0
+1795227600053,1292,03 - Xác nhận đơn,200,OK,Spike_Nen_2_users 1-1,text,true,,301,376,2,2,http://localhost:3000/api/admin/orders/470/status,1292,0,0
+1795227601013,1653,03 - Xác nhận đơn,200,OK,Spike_Nen_2_users 1-2,text,true,,301,376,2,2,http://localhost:3000/api/admin/orders/471/status,1653,0,0
+1795227601344,1326,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Nen_2_users 1-1,text,true,,81476,291,2,2,http://localhost:3000/api/admin/orders,1326,0,0
+1795227602672,2,01 - Admin login,200,OK,Spike_Nen_2_users 1-1,text,true,,640,228,2,2,http://localhost:3000/api/login,2,0,0
+1795227602668,5,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Nen_2_users 1-2,text,true,,81476,291,2,2,http://localhost:3000/api/admin/orders,5,0,0
+1795227602675,3,01 - Admin login,200,OK,Spike_Nen_2_users 1-2,text,true,,640,228,2,2,http://localhost:3000/api/login,3,0,0
+1795227602675,3,02 - Đọc danh sách đơn hàng,200,OK,Spike_Nen_2_users 1-1,text,true,,81476,291,2,2,http://localhost:3000/api/admin/orders,3,0,0
+1795227602679,6,02 - Đọc danh sách đơn hàng,200,OK,Spike_Nen_2_users 1-2,text,true,,81476,291,2,2,http://localhost:3000/api/admin/orders,5,0,0
+1795227605713,18,03 - Xác nhận đơn,200,OK,Spike_Nen_2_users 1-1,text,true,,301,376,2,2,http://localhost:3000/api/admin/orders/472/status,18,0,4
+1795227605732,11,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Nen_2_users 1-1,text,true,,81478,291,2,2,http://localhost:3000/api/admin/orders,10,0,0
+1795227605746,4,01 - Admin login,200,OK,Spike_Nen_2_users 1-1,text,true,,640,228,2,2,http://localhost:3000/api/login,4,0,0
+1795227605752,36,02 - Đọc danh sách đơn hàng,200,OK,Spike_Nen_2_users 1-1,text,true,,81478,291,2,2,http://localhost:3000/api/admin/orders,11,0,0
+1795227606388,15,03 - Xác nhận đơn,200,OK,Spike_Nen_2_users 1-2,text,true,,301,376,2,2,http://localhost:3000/api/admin/orders/473/status,15,0,3
+1795227606404,10,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Nen_2_users 1-2,text,true,,81480,291,2,2,http://localhost:3000/api/admin/orders,10,0,0
+1795227606417,3,01 - Admin login,200,OK,Spike_Nen_2_users 1-2,text,true,,640,228,2,2,http://localhost:3000/api/login,3,0,0
+1795227606421,26,02 - Đọc danh sách đơn hàng,200,OK,Spike_Nen_2_users 1-2,text,true,,81480,291,2,2,http://localhost:3000/api/admin/orders,5,0,0
+1795227608502,11,03 - Xác nhận đơn,200,OK,Spike_Nen_2_users 1-1,text,true,,301,376,2,2,http://localhost:3000/api/admin/orders/474/status,11,0,0
+1795227608516,10,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Nen_2_users 1-1,text,true,,81482,291,2,2,http://localhost:3000/api/admin/orders,9,0,0
+1795227608823,8,03 - Xác nhận đơn,200,OK,Spike_Nen_2_users 1-2,text,true,,301,376,1,1,http://localhost:3000/api/admin/orders/475/status,8,0,0
+1795227608832,6,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Nen_2_users 1-2,text,true,,81484,291,1,1,http://localhost:3000/api/admin/orders,6,0,0
+1795227608841,3,01 - Admin login,200,OK,Spike_Nen_2_users 1-2,text,true,,640,228,1,1,http://localhost:3000/api/login,3,0,0
+1795227608846,8,02 - Đọc danh sách đơn hàng,200,OK,Spike_Nen_2_users 1-2,text,true,,81484,291,1,1,http://localhost:3000/api/admin/orders,7,0,0
+1795227610968,9,03 - Xác nhận đơn,200,OK,Spike_Nen_2_users 1-2,text,true,,301,376,1,1,http://localhost:3000/api/admin/orders/476/status,9,0,0
+1795227610978,11,04 - Kiểm tra trạng thái đơn,200,OK,Spike_Nen_2_users 1-2,text,true,,81486,291,1,1,http://localhost:3000/api/admin/orders,10,0,0

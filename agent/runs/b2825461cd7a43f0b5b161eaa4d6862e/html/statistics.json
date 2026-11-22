@@ -1,0 +1,50 @@
+{
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 2,
+    "errorCount" : 1,
+    "errorPct" : 50.0,
+    "meanResTime" : 62.0,
+    "medianResTime" : 62.0,
+    "minResTime" : 8.0,
+    "maxResTime" : 116.0,
+    "pct1ResTime" : 116.0,
+    "pct2ResTime" : 116.0,
+    "pct3ResTime" : 116.0,
+    "throughput" : 8.097165991902834,
+    "receivedKBytesPerSec" : 5.068636133603239,
+    "sentKBytesPerSec" : 2.051967358299595
+  },
+  "02 - Đọc danh sách đơn hàng" : {
+    "transaction" : "02 - Đọc danh sách đơn hàng",
+    "sampleCount" : 1,
+    "errorCount" : 1,
+    "errorPct" : 100.0,
+    "meanResTime" : 8.0,
+    "medianResTime" : 8.0,
+    "minResTime" : 8.0,
+    "maxResTime" : 8.0,
+    "pct1ResTime" : 8.0,
+    "pct2ResTime" : 8.0,
+    "pct3ResTime" : 8.0,
+    "throughput" : 125.0,
+    "receivedKBytesPerSec" : 78.369140625,
+    "sentKBytesPerSec" : 35.5224609375
+  },
+  "01 - Admin login" : {
+    "transaction" : "01 - Admin login",
+    "sampleCount" : 1,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 116.0,
+    "medianResTime" : 116.0,
+    "minResTime" : 116.0,
+    "maxResTime" : 116.0,
+    "pct1ResTime" : 116.0,
+    "pct2ResTime" : 116.0,
+    "pct3ResTime" : 116.0,
+    "throughput" : 8.620689655172413,
+    "receivedKBytesPerSec" : 5.387931034482758,
+    "sentKBytesPerSec" : 1.9194504310344827
+  }
+}

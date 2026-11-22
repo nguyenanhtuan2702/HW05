@@ -20,10 +20,10 @@ Mô tả Load, Stress, Spike, think-time, ramp-up, số thread, ba report view v
 | Soak | | | | | | |
 
 ## Đối chiếu phân tích AI và vấn đề phát hiện
-Tổng hợp task2/analysis.md và dẫn link issue có thật.
+Tổng hợp [AI_Analysis.md](../task2/AI_Analysis.md), [Misinterpretation_Hunt.md](../task2/Misinterpretation_Hunt.md), [Human_Review.md](../task2/Human_Review.md) và dẫn link issue có thật.
 
 ## Kết luận
-Nêu ngưỡng đã kiểm chứng và tích hợp sơ đồ cùng trade-off từ task3/proposal.md.
+Nêu ngưỡng đã kiểm chứng và tích hợp sơ đồ cùng trade-off từ [task3/proposal.md](../task3/proposal.md).
 
 ## Phụ lục
-Tích hợp AI Audit và AI Critique đã hoàn thiện trước khi xuất PDF.
+Tích hợp [AI_AUDIT.md](../ai/AI_AUDIT.md) và [AI_Critique.md](../ai/AI_Critique.md) đã hoàn thiện trước khi xuất PDF.
