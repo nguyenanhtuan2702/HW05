@@ -40,8 +40,8 @@ Môi trường thực nghiệm được thiết lập trên máy tính cá nhân
 
 | Thành phần | Giá trị | Nguồn |
 |---|---|---|
-| Hệ điều hành | Microsoft Windows 11 Home Single Language (10.0.26300), 64-bit | PowerShell (`Win32_OperatingSystem`) |
-| Hostname | `nguyenatuan143` | PowerShell (`hostname`) |
+| Hệ điều hành | Microsoft Windows 11 Home Single Language (10.0.26300), 64-bit | DxDiag và PowerShell (`Win32_OperatingSystem`) |
+| Hostname | `nguyenatuan143` | DxDiag (`NGUYENATUAN143`) và PowerShell (`hostname`); khớp không phân biệt hoa/thường |
 | CPU | 13th Gen Intel(R) Core(TM) i7-1355U; 10 cores; 12 logical processors | PowerShell (`Win32_Processor`) |
 | RAM | 15.69 GB (xấp xỉ 16 GB) | PowerShell (`Win32_ComputerSystem`) |
 | Ổ đĩa | NVMe EG6 KIOXIA 512GB; SSD; NVMe; dung lượng hệ thống nhận diện 476.94 GB | PowerShell (`Get-PhysicalDisk`) |
@@ -62,12 +62,14 @@ Việc triển khai trên cùng một máy giúp đơn giản hóa môi trườn
 
 ### 2.3. Minh chứng cấu hình phần cứng
 
-Các thông tin về CPU, RAM và ổ đĩa được thu thập trực tiếp bằng PowerShell thông qua các lệnh truy vấn hệ thống Windows. Hình ảnh minh chứng cấu hình phần cứng được lưu trong thư mục `evidence/` và đính kèm cùng báo cáo.
+Thông tin CPU, RAM và ổ đĩa được thu thập bằng PowerShell; ảnh DxDiag bổ sung hệ điều hành, model máy, BIOS, CPU và RAM. Tên máy trong DxDiag (`NGUYENATUAN143`) khớp với kết quả `hostname` (`nguyenatuan143`) khi bỏ qua chữ hoa/thường. Đối chiếu với hostname của bài trước vẫn cần xác nhận riêng.
 
 - CPU và số lượng logical processors: PowerShell – `Win32_Processor`.
 - Dung lượng RAM: PowerShell – `Win32_ComputerSystem`.
 - Thông tin ổ đĩa: PowerShell – `Get-PhysicalDisk`.
 - Thông tin hệ điều hành và hostname: PowerShell – `Win32_OperatingSystem` và `hostname`.
+- Ảnh DxDiag: [`dxdiag.png`](evidence/dxdiag.png); ảnh đối chiếu hostname: [`hostname.png`](evidence/hostname.png).
+- Bản chép thông tin từ hai ảnh: [`dxdiag.txt`](evidence/dxdiag.txt). Đây không phải tệp xuất nguyên bản bằng nút “Save All Information” của DxDiag.
 
 ![Ảnh minh chứng – Cấu hình phần cứng và phần mềm (PowerShell), ảnh 1](evidence/eviroment1.png)
 

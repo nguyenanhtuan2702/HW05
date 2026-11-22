@@ -1,0 +1,33 @@
+HW05 Hardware and DxDiag Summary
+================================
+
+Source:
+- Manually transcribed from task1/evidence/dxdiag.png.
+- Hostname command transcribed from task1/evidence/hostname.png.
+- This is a text summary, not a native DxDiag "Save All Information" export.
+
+System Information
+------------------
+Report date/time: 22 November 2026, 20:34:27
+Computer name (DxDiag): NGUYENATUAN143
+Operating system: Windows 11 Home Single Language 64-bit
+OS version: 10.0, Build 26300
+Language: English (Regional Setting: English)
+System manufacturer: Dell Inc.
+System model: Dell 15 DC15250
+BIOS: 1.13.0
+Processor: 13th Gen Intel(R) Core(TM) i7-1355U (12 CPUs), approximately 1.7 GHz
+Memory: 16384 MB RAM
+Page file: 20974 MB used, 8405 MB available
+DirectX version: DirectX 12
+
+Hostname Cross-Check
+--------------------
+DxDiag computer name: NGUYENATUAN143
+Output of `hostname`: nguyenatuan143
+Result: The names match when compared without regard to letter case.
+
+Evidence
+--------
+- DxDiag System tab: task1/evidence/dxdiag.png
+- `hostname` command: task1/evidence/hostname.png
